@@ -80,7 +80,7 @@ a {
 #products-container h1{
     
     background: linear-gradient(90deg, #272657 0%, #5391E4 48.1%, #272657 100%);
-    -webkit-background-clip: text;
+     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0 0 40px;
 
@@ -102,7 +102,7 @@ a {
     color: #588ce4;
     font-size:55px;
     background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
-  -webkit-background-clip: text;
+   -webkit-background-clip : text;
    -webkit-text-fill-color: transparent;
 }
 #crm-title p{
@@ -160,22 +160,7 @@ a {
 .fa-circle-check{
     color: #8a67e9;
 }
-/* #accordionPanelsStayOpenExample{
-    
-    display: block;
-    width: 100%;
-    padding-left: 17rem;
-    padding-right: 17rem;
-}
-#accordian-btn :hover{
-   color: #000c60;
-}
-.accordion-button:focus,
-#accordion-button:not(.collapsed) {
-   
-    background-color: transparent;
-    box-shadow: none;
-} */
+
 .accordion-header button {
     font-size: 20px;
     font-weight: 500;
