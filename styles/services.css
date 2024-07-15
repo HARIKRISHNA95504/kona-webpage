@@ -182,21 +182,24 @@ a {
     color: #13214f;
     line-height: 2.5rem;
 }
-#accordionPanelsStayOpenExample{
-    
-    display: block;
-    width: 100%;
-    padding-left: 17rem;
-    padding-right: 17rem;
+.accordion-header button {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 0px;
 }
-#accordian-btn :hover{
-   color: #000c60;
-}
+
 .accordion-button:focus,
-#accordion-button:not(.collapsed) {
-   
+.accordion-button:not(.collapsed) {
+    color: rgb(118, 51, 202);
     background-color: transparent;
     box-shadow: none;
+}
+.accordion-item{
+    background-color: none;
+}
+
+.accordion {
+    padding: 70px 220px;
 }
 
 #connect{
@@ -210,9 +213,7 @@ a {
    
 }
 
-.accordion-item{
-    background-color: none;
-}
+
 
 #lets-connect-container button{
     font-size: 20px;

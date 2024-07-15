@@ -160,7 +160,7 @@ a {
 .fa-circle-check{
     color: #8a67e9;
 }
-#accordionPanelsStayOpenExample{
+/* #accordionPanelsStayOpenExample{
     
     display: block;
     width: 100%;
@@ -175,7 +175,27 @@ a {
    
     background-color: transparent;
     box-shadow: none;
+} */
+.accordion-header button {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 0px;
 }
+
+.accordion-button:focus,
+.accordion-button:not(.collapsed) {
+    color: rgb(118, 51, 202);
+    background-color: transparent;
+    box-shadow: none;
+}
+.accordion-item{
+    background-color: none;
+}
+
+.accordion {
+    padding: 70px 220px;
+}
+
 
 #connect{
     margin-top: 50px;

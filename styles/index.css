@@ -304,7 +304,7 @@ a {
 .p-5 {
     margin-top: 1rem;
 } */
-#accordionPanelsStayOpenExample{
+/* #accordionPanelsStayOpenExample{
     
     display: block;
     width: 100%;
@@ -320,7 +320,28 @@ a {
    
     background-color: transparent;
     box-shadow: none;
+} */
+.accordion-header button {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 0px;
 }
+
+.accordion-button:focus,
+.accordion-button:not(.collapsed) {
+    color: rgb(118, 51, 202);
+    background-color: transparent;
+    box-shadow: none;
+}
+.accordion-item{
+    background-color: none;
+}
+
+.accordion {
+    padding: 70px 220px;
+}
+
+
 
 #connect{
     margin-top: 50px;
@@ -333,9 +354,7 @@ a {
    
 }
 
-.accordion-item{
-    background-color: none;
-}
+
 
 #lets-connect-container button{
     font-size: 20px;
@@ -453,10 +472,19 @@ a {
     .p-5 {
         margin-top: 0.5rem; /* Adjusted top margin for smaller screens */
     }
-    #accordionPanelsStayOpenExample {
-        padding-left: 3rem;  /* Adjust padding for larger screens */
-        padding-right: 3rem; /* Adjust padding for larger screens */
+    /* #accordionPanelsStayOpenExample {
+        padding-left: 3rem; 
+        padding-right: 3rem; 
+    } */
+    .accordion-header button {
+        font-size: 14px; 
+        padding: 10px 0; 
     }
+
+    .accordion {
+        padding: 20px; 
+    }
+    
     #lets-connect-container{
         display: flex;
         flex-direction: column;
