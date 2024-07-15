@@ -431,6 +431,7 @@ a {
     .banner h1 {
         font-size: 24px;
     }
+    
     #cards-container{
         display: flex;
         flex-direction: row;
@@ -526,17 +527,16 @@ a {
     top: 10%; /* Adjust for smaller screens */
     animation-duration: 8s; /* Adjust animation duration */
 }
+#trusted p{
+    font-size:50px ;
+    font-weight: 700;
+    text-align: center;
+}
 
   
     
   
-   /* @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
-  } */
+  
   
  
 }
