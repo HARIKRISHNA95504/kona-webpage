@@ -93,7 +93,7 @@ a {
     text-align: center;
     align-items: center;
 }
-/* .pathone {
+.pathone {
     position: absolute;
     right: 16%;
     top: 38%;
@@ -117,7 +117,7 @@ a {
     left: 0%;
     top: 20%;
     animation: zoom-in-zoom-out 10s ease infinite;
-} */
+}
 .container{
     display: grid;
   justify-content: space-evenly;
@@ -501,6 +501,30 @@ a {
     width: 100%;
     position: relative;
    
+}
+.pathone {
+    
+    right: 10%; /* Adjust for smaller screens */
+    top: 20%; /* Adjust for smaller screens */
+    animation-duration: 8s; /* Adjust animation duration */
+}
+
+.pathtwo {
+    right: 15%; /* Adjust for smaller screens */
+    top: 60%; /* Adjust for smaller screens */
+    animation-duration: 4s; /* Adjust animation duration */
+}
+
+.paththree {
+    left: 15%; /* Adjust for smaller screens */
+    top: 5%; /* Adjust for smaller screens */
+    animation-duration: 4s; /* Adjust animation duration */
+}
+
+.pathfour {
+    left: 0%; /* Adjust for smaller screens */
+    top: 10%; /* Adjust for smaller screens */
+    animation-duration: 8s; /* Adjust animation duration */
 }
 
   
