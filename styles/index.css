@@ -3,6 +3,7 @@
     padding: 0px;
     width: 100%;
     overflow:hidden;
+    font-family: Poppins, sans-serif 
 }
 
 
@@ -15,7 +16,7 @@
     box-shadow: 0px 0px 0.5px 0px;
 }
 #navbar img{
-   width: 100%;
+    width: 100%;
     padding-left: 180px;
     
 }
@@ -38,15 +39,7 @@
     color: white;
     background-color: #6f42c1;
 }
-/* //section */
-/* .col-lg-30  {
-    padding-top: 2rem; 
-    padding-bottom: 1rem; 
-    text-align: center;
-    font-size: 500px;
 
-   
-} */
 .btn1 {
     position: relative;
 }
@@ -73,6 +66,7 @@ a {
     padding: 10px 24px !important;
     border-radius: 8px;
 }
+
 #image{
     margin-top: 50px;
     background-image: url("https://kona-digital.com/images/herobg.jpg");
@@ -91,14 +85,39 @@ a {
 
  /*  modal-form ..........>>>>>>>>>>>>>>>>>> */
  .modal-header{
-    background-color:#952cd4;
+    background-image: linear-gradient(to right, #ff9b71 0%, #5a39c2 60%, #9e2ad5 100%);
+
     color: #ffff;
  }
 .modal-footer{
     text-align: center;
     align-items: center;
 }
+/* .pathone {
+    position: absolute;
+    right: 16%;
+    top: 38%;
+    animation: zoom-in-zoom-out 10s ease infinite;
+}
+.pathtwo {
+    position: absolute;
+    right: 22%;
+    top: 82%;
+    animation: zoom-in-zoom-out 5s ease infinite;
+}
 
+.paththree {
+    position: absolute;
+    left: 22%;
+    top: 0%;
+    animation: zoom-in-zoom-out 5s ease infinite;
+}
+.pathfour {
+    position: absolute;
+    left: 0%;
+    top: 20%;
+    animation: zoom-in-zoom-out 10s ease infinite;
+} */
 .container{
     display: grid;
   justify-content: space-evenly;
@@ -114,6 +133,7 @@ a {
     border:none;
     border-radius: 10rem;
     display: block;
+    transition: transform .5s;
     
 }
 .pimg1{
@@ -126,9 +146,16 @@ a {
     font-size: 30px;
     border: none;
     border-radius: 15px;
-    
-    
+    transition: transform .5s;
 }
+.pimg1:hover {
+    transform: scale(1.05);
+}
+.pimg1:hover .img1 {
+    transform: scale(1.05);
+}
+
+
 
 .pimg2{
     position: relative;
@@ -140,7 +167,15 @@ a {
     font-size: 30px;
     border: none;
     border-radius: 15px;
+    transition: transform .5s;
     
+    
+}
+.pimg2:hover {
+    transform: scale(1.05);
+}
+.pimg2:hover .img1 {
+    transform: scale(1.05);
 }
 .pimg3{
     position: relative;
@@ -152,16 +187,15 @@ a {
     font-size: 30px;
     border: none;
     border-radius: 15px;
+    transition: transform .5s;
 }
-/* .carousel-indicators [data-bs-target] {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #ccc;
+.pimg3:hover {
+    transform: scale(1.05);
 }
-.carousel-indicators .active {
-    background-color: #000;
-} */
+.pimg3:hover .img1 {
+    transform: scale(1.05);
+}
+
 .text{
     justify-content: start;
     align-items: start;
@@ -177,6 +211,7 @@ a {
     align-items: flex-end;
     color: #000c60;
 }
+
 #cards{
     position: relative;
     top: -13rem;
@@ -185,13 +220,13 @@ a {
         position: absolute;
         left: 0;
         
-        top: -15;
+        top: -15rem;
 }
 #cards .blur2{
     position: absolute;
     left: 0;
     top: 0;
-    margin-left: 50rem;
+    margin-left: 47rem;
     padding-bottom: 20rem;
     
     
@@ -212,34 +247,75 @@ a {
   .my-card:hover {
     transform: scale(1.05);
   }
+  #industry{
+    margin-top: -1rem;
+    margin-bottom: 10rem;
+  }
+  
+  #industry h6{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 8px;
+    border: none;
+    border-radius: 25px;
+
+}
+#trusted-container{
+    background-image: url("	https://kona-digital.com/images/mapimg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
 #trusted p{
     font-size:66px ;
     font-weight: 700;
     text-align: center;
-    /* align-items: center;
-    justify-content: center; */
+   
+
 
 }
 
-#hyderabad-cards{
-    margin: 70px;
+#hyderabad-cards {
+    margin-left: 10rem;
+    margin-right: 7rem;
+   
+    margin-top: 3rem; 
+    
+    
+}
+
+.p-5 {
+    margin-top: 1rem;
+}
+
+/* #hyderabad-cards{
+  
     margin-top: 10rem;
     position: relative;
+    margin-left: 10rem;
+    margin-right: 10rem;
 
 } 
 .p-5 {
-    margin-top: 6rem;
-}
+    margin-top: 1rem;
+} */
 #accordionPanelsStayOpenExample{
     
     display: block;
     width: 100%;
     padding-left: 17rem;
     padding-right: 17rem;
+   
 }
 #accordian-btn :hover{
    color: #000c60;
 }
+.accordion-button:focus,
+.accordion-button:not(.collapsed) {
+   
+    background-color: transparent;
+    box-shadow: none;
+}
+
 #connect{
     margin-top: 50px;
 }
@@ -249,6 +325,10 @@ a {
    gap: 1rem;
    
    
+}
+
+.accordion-item{
+    background-color: none;
 }
 
 #lets-connect-container button{
@@ -261,10 +341,11 @@ a {
     color: white;
 }
 #lets-connect{
-    margin: 150px;
-   
-    
-} 
+    text-align: center;
+    width: 100%;
+    margin: 10rem;
+}
+
 #services-contianer{
     display: flex;
     padding-top: 80px;
@@ -291,4 +372,147 @@ a {
 #services li:hover {
     cursor: pointer;
     color: #a928d8;
+}
+.dail{
+    position: absolute;
+    top:330rem;
+    
+    right: 0;
+}
+
+
+
+@media (max-width: 768px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    #navbar img {
+        padding-left: 0;
+        margin-bottom: 10px;
+    }
+
+    #navbar-types {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+       
+    }
+
+   .pimg1, .pimg2, .pimg3 {
+        margin-top: -10px;
+    }
+    
+
+    #trusted p {
+        font-size: 24px;
+    }
+
+    .banner h1 {
+        font-size: 24px;
+    }
+    #cards-container{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 0rem;
+    }
+    #hyderabad-cards {
+        margin-top: 2rem;
+        
+        /* Adjusted top margin for smaller screens */
+    }
+    
+    .p-5 {
+        margin-top: 0.5rem; /* Adjusted top margin for smaller screens */
+    }
+    #accordionPanelsStayOpenExample {
+        padding-left: 3rem;  /* Adjust padding for larger screens */
+        padding-right: 3rem; /* Adjust padding for larger screens */
+    }
+    #lets-connect-container{
+        display: flex;
+        flex-direction: column;
+    }
+    #lets-connect {
+        margin: 5rem 2rem;
+        text-align: center;
+         /* Reduce margin on smaller screens */
+    }
+    #lets-connect p{
+        margin-right: 4rem;
+    }
+   
+    #connect-image {
+        text-align: center; /* Center align content */
+         /* Adjust top margin as needed */
+    }
+    
+    #connect-image img {
+        max-width: 100%; /* Ensure image does not exceed its container width */
+       /* Maintain aspect ratio */
+    }
+    #services-contianer{
+        display: flex;
+        flex-direction: column;
+        
+        text-align: center;
+        justify-content: start;
+    }   
+    #services h4{
+        font-size: 15px;
+    }
+    #services ul{
+        display: flex;
+        flex-direction: column;
+        line-height: 1rem;
+        
+    }
+    #services li{
+        list-style-type: none;
+        line-height: 1.5rem;
+        font-weight: 400;
+        font-size: 10px;
+  }
+  #hyderabad-cards {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem; 
+    width: 100%;
+    position: relative;
+   
+}
+
+  
+    
+  
+   /* @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  } */
+  
+ 
 }

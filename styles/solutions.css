@@ -7,14 +7,14 @@
 }
 
 
-#navbar{
+ #navbar{
     margin: 0px;
     background-color: rgb(255, 255, 255);
     display: flex;
     gap:5rem;
     padding: 0px;
     box-shadow: 0px 0px 0.5px 0px;
-}
+  }
 #navbar img{
    width: 100%;
     padding-left: 180px;
@@ -65,102 +65,139 @@ a {
     padding: 10px 24px !important;
     border-radius: 8px;
 }
-#products-container{
+#solutions-container{
     display: flex;
-    gap: 0px;
-    padding-top: 40px;
-    background-image: url("	https://kona-digital.com/images/productbanner.jpg");
+    padding-top: 81px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    gap: 4rem;
 }
-#content{
-    padding-left: 18rem;
+#solutions-school{
     text-align: start;
-    justify-content: flex-start;
-   
+    padding-top: 80px;
 }
-#products-container h1{
+#solutions-school h1{
+  font-size: 3.5rem;
+  background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
+  -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+#solutions-school h5{
+  width: 56%;
+  font-weight: 400;
+  padding: 8px;
+  text-align: center;
+  border-radius: 22px;
+  background: linear-gradient(90deg, #ECEAF8 0%, #E9C4E6 28.28%, #D2CDE2 63.13%, #EAEDFB 100%);
+}
+#solutions-dashboard {
+    display: flex;
+    padding-top: 81px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    gap: 4rem;
+}
+.solutions-monitor{
+    text-align: start;
+    padding-right: 52px;
+    padding-left: 52px;
+    padding-top: 100px;
     
-    background: linear-gradient(90deg, #272657 0%, #5391E4 48.1%, #272657 100%);
+}
+.solutions-monitor h3{
+    font-size:3.5rem;
+    background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+  }
+  .solutions-monitor h5{
+    width: 56%;
+    font-weight: 400;
+    padding: 8px;
+    text-align: center;
+    border-radius: 22px;
+    background: linear-gradient(90deg, #ECEAF8 0%, #E9C4E6 28.28%, #D2CDE2 63.13%, #EAEDFB 100%);
+  }
+  .solutions-monitor p{
+    font-size: 17px;
+  }
+  .tickmark{
+    font-size: 17px;
+    
+  }
+  .fa-circle-check{
+    color: #8b66ea;
+    font-size: 15px;
+  }
+  #what-container {
+    
+    padding-bottom: 9rem;
+    background-image: url("	https://kona-digital.com/images/whatcanbg.svg");
+  }
+  #what-container h1{
+    text-align: center;
+    background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin: 0 0 40px;
-
-}
-#products-container p{
-    color: #424246;
-    font-weight: 450;
-    padding-top: 20px;
-}
-#btn2{
-  color: #fff;
-}
-#crm-title{
-    padding-top: 7rem;
-    text-align: center;
-    justify-content: flex-start;
-}
-#crm-title h1{
-    color: #588ce4;
-    font-size:55px;
-    background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
-  -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-}
-#crm-title p{
-         color: #423a56;
-        font-size: 16px;
-        font-weight: 450;
-    
-}
-#cards{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
-    width: 100%;
-    gap: 1rem;
-    padding-top: 30px;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-bottom: 50px;
-}
-
-#cards .konacard1 img{
-    width: 30%;
-    text-align: center;
-    
-}
-.konacard1{
-    justify-content: center;
-    
-    width: 100%;
-    padding: 10px;
-    
-    text-align: center;
-    line-height: 1.6rem;
-}
-#updates-container{
+    padding-right: 33rem;
+    padding-top: 6rem;
+    font-size: 50px;
+  }
+  #whaticons{
+    list-style-type: none;
     display: flex;
-    padding-top: 140px;
-    padding-left: 150px;
-    padding-right: 155px;
-    padding-bottom: 100px;
+    padding-left: 12rem;
+    padding-top: 10rem;
     gap: 10rem;
-    background-color: #f0f9f8;
-}
-#updates-container h1{
-    font-size: 60px;
+    
+  }
+  #platforms-container{
+    text-align: center;
+    padding-top: 5rem;
+  }
+  #platforms-container p{
+    font-size: 20px;
+   
+   }
+  #platforms-container h1{
+    font-size: 50px;
+    font-weight: 500;
     background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
   -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
-    
-}
-#updates-container h5{
-  border: none;
- 
-}
-.fa-circle-check{
-    color: #8a67e9;
-}
-#accordionPanelsStayOpenExample{
+  }
+  #platforms ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 2rem;
+
+  }
+  #platforms li{
+    width: 20%;
+  }
+ #platforms img{
+    vertical-align: middle;
+    width: 100%;
+  }
+  #platforms p,h5{
+    text-align: center;
+  }
+.li2{
+    position: relative;
+     top: 12rem;
+     text-align: center;
+  }
+  .li4{
+    position: relative;
+     top: 12rem;
+  }
+  .li6{
+    position: relative;
+     top: 12rem;
+  }
+  #accordionPanelsStayOpenExample{
     
     display: block;
     width: 100%;
@@ -211,18 +248,23 @@ a {
     padding-top: 80px;
     padding: 80px;
 }
+
 #services ul{
     display: flex;
+   
     
 }
 #services h4{
     color: #000c60;
+    font-size: 20px;
+    
 }
 
 #services li{
       list-style-type: none;
-      line-height: 2.8rem;
+      line-height: 1.5rem;
       font-weight: 400;
+      font-size: 10px;
 }
 #services li:hover {
     cursor: pointer;
@@ -230,7 +272,7 @@ a {
 }
 .dail{
     position:absolute;
-    top:224rem;
+    top:243rem;
     right: 0;
     
 }
@@ -241,5 +283,9 @@ a {
 .modal-footer{
     text-align: center;
     align-items: center;
+}
+
+#accordion-container{
+    padding-top: 200px;
 }
 
