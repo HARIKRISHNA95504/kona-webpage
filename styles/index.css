@@ -258,8 +258,14 @@ a {
     padding: 8px;
     border: none;
     border-radius: 25px;
+    margin-left: 600px;
+    width: 20%;
 
 }
+
+
+
+
 #trusted-container{
     background-image: url("	https://kona-digital.com/images/mapimg.png");
     background-position: center;
@@ -533,7 +539,11 @@ a {
     text-align: center;
 }
 
-  
+ #industry h6{
+    text-align: center;
+    width: 80%;
+    margin-left: 30px;
+ } 
     
   
   
