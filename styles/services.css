@@ -274,3 +274,189 @@ a {
 #accordion-container{
     padding-top: 200px;
 }
+@media (max-width : 768px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Poppins, sans-serif;
+        box-sizing: border-box;
+    
+      }
+      html,body{
+        width: 100%;
+        overflow-x: hidden;
+      }
+      #navbar{
+        margin: 0px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+        
+        box-shadow: 0px 0px 0.5px 0px;
+      }
+    #navbar img{
+      width: 100%;
+      padding-left: 0rem;
+      padding-right: 1rem;
+      
+        
+    }
+    #navbar-types{
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+        text-align: center;
+    }
+    #navbar-types li{
+        list-style-type: none;
+    }
+    .btn {
+      text-align: center;
+      justify-content: center;
+      background: linear-gradient(90deg, #4e3bbf, #a928d8);
+      display: inline-block;
+      color: #fff;
+      border: none;
+      width: 100%;
+      border-radius: 8px;
+    }
+    #services-container{
+        display: flex;
+        flex-direction: column;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        background-color: #ebebf5;
+        gap: 1rem;
+        text-align: center;
+        justify-content: start;
+    
+    }
+    #services-container-image img{
+        width: 100%;
+    }
+    
+    #services-services img{
+        width: 80%;
+        
+    }
+    #services-enhance{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 30px;
+        padding-right:30px ;
+    }
+    #services-enhance h5{
+       width: 100%;
+    }
+    #services-enhance img{
+        width: 100%;
+     }
+     #services-structure{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 30px;
+        padding-right:30px ;
+       }
+     #services-structure img{
+        width: 100%;
+     }
+     #services-structure h5{
+        width: 100%;
+     }
+     #services-performance{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 30px;
+        padding-right:30px ;
+     }
+     #services-performance img{
+        width: 100%;
+     }
+     #services-performance h5{
+        width: 100%;
+     }
+   
+    .services-content{
+        padding-top: 2rem;
+    }
+    .services-content h1{
+        padding-bottom: 1rem;
+        background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .services-content p{
+        padding-bottom: 2rem;
+        font-size: 19px;
+    }
+    .qa h1{
+        font-size: 50px;
+        font-weight: 400;
+        
+      }
+      #accordion-container{
+        padding-top: 10px;
+      }
+      .accordion-header button {
+        font-size: 14px; 
+        padding: 10px 0; 
+      }
+      
+      .accordion {
+        padding-top: -10rem;
+        padding: 20px;
+         
+      }
+      #lets-connect-container{
+        display: flex;
+        flex-direction: column;
+        
+      }
+      #lets-connect {
+        margin: 5rem 2rem;
+        text-align: center;
+       
+      }
+      #lets-connect p{
+        margin-right: 4rem;
+      }
+      
+      #connect-image {
+        text-align: center; 
+      }
+      
+      #connect-image img {
+        max-width: 100%;
+        padding-top: -40px; 
+        padding-left:20px;
+        padding-right: 20px;
+      }
+      #services-contianer{
+        display: flex;
+        flex-direction: column;
+        
+        
+      } 
+      #services-image{
+        width: 100%;
+      }  
+      #services h4{   
+        font-size: 15px;
+      }
+      #services ul{
+        display: flex;
+        flex-direction: column;
+        line-height: 1rem;
+        
+      }
+      #services li{
+        list-style-type: none;
+        line-height: 1.5rem;
+        font-weight: 400;
+        font-size: 10px;
+      }
+}
