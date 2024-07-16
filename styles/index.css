@@ -399,10 +399,7 @@ a {
     color: #a928d8;
 }
 .dail{
-    /* position: absolute;
-    top:330rem;
     
-    right: 0; */
     position: fixed;
     top: 30rem;
     left: 90rem;
