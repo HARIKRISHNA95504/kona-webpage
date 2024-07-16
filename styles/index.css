@@ -493,20 +493,18 @@ a {
     #lets-connect {
         margin: 5rem 2rem;
         text-align: center;
-         /* Reduce margin on smaller screens */
+       
     }
     #lets-connect p{
         margin-right: 4rem;
     }
    
     #connect-image {
-        text-align: center; /* Center align content */
-         /* Adjust top margin as needed */
+        text-align: center; 
     }
     
     #connect-image img {
-        max-width: 100%; /* Ensure image does not exceed its container width */
-       /* Maintain aspect ratio */
+        max-width: 100%; 
     }
     #services-contianer{
         display: flex;

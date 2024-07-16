@@ -266,13 +266,7 @@ a {
     color: #a928d8;
 }
 
-/* .dail{
-    position:absolute;
-    top:224rem;
-    right: 0;
-    
-    
-} */
+
 .dail {
 
     position: fixed;
@@ -326,13 +320,7 @@ a {
         margin-bottom: 10px;
     }
 
-    /* #navbar img{
-       width: 100%;
-       text-align: center;
-       margin-right: 10rem;
-       
-        
-    } */
+    
     #navbar-types {
         position: relative;
         top: -5rem;
@@ -448,7 +436,65 @@ a {
         padding-left: 5rem;
         
     }
-     
+    .qa h1{
+        font-size: 50px;
+        font-weight: 400;
+    }
+    .accordion-header button {
+        font-size: 14px; 
+        padding: 10px 0; 
+    }
 
+    .accordion {
+        padding-top: -10rem;
+        padding: 20px; 
+    }
+    #lets-connect-container{
+        display: flex;
+        flex-direction: column;
+    }
+    #lets-connect {
+        margin: 5rem 2rem;
+        text-align: center;
+       
+    }
+    #lets-connect p{
+        margin-right: 4rem;
+    }
+   
+    #connect-image {
+        text-align: center; 
+    }
+    
+    #connect-image img {
+        max-width: 100%;
+        padding-top: -40px; 
+        padding-left:20px;
+        padding-right: 20px;
+    }
+    #services-contianer{
+        display: flex;
+        flex-direction: column;
+        
+        
+    } 
+    #services-image{
+        width: 100%;
+    }  
+    #services h4{   
+        font-size: 15px;
+    }
+    #services ul{
+        display: flex;
+        flex-direction: column;
+        line-height: 1rem;
+        
+    }
+    #services li{
+        list-style-type: none;
+        line-height: 1.5rem;
+        font-weight: 400;
+        font-size: 10px;
+    }
 
 }
