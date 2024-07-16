@@ -257,7 +257,7 @@ a {
     color: #a928d8;
 }
 .dail{
-    position:absolute;
+    position:fixed;
     top:301rem;
     right: 0;
     
