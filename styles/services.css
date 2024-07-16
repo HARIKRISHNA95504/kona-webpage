@@ -459,4 +459,10 @@ a {
         font-weight: 400;
         font-size: 10px;
       }
+      .dail{
+        position:relative;
+        top:301rem;
+        right: 0;
+        
+    }
 }
