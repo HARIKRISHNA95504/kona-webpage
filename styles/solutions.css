@@ -277,8 +277,8 @@ a {
 }
 .dail{
 position: fixed;
-top: 7rem;
-left: 85rem;
+top: 11rem;
+left: 91rem;
 }
 .dail-button{
   background-color: #6f42c1;
@@ -580,8 +580,8 @@ background: linear-gradient(90deg, #ECEAF8 0%, #E9C4E6 28.28%, #D2CDE2 63.13%, #
 }
 .dail {
   position: fixed;
-  top: 13%;
-  left: 65%;
+  top: 34rem;
+  left: 69%;
   width: 25%;
   
 }
