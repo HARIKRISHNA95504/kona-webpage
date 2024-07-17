@@ -349,7 +349,7 @@ a {
 }
 .dail{
 position: fixed;
-top: 11rem;
+top: 24rem;
 left: 91rem;
 }
 .dail-button{
@@ -386,31 +386,7 @@ padding: 20px;
     width: 100%;
     overflow-x: hidden;
   }
-  /* #navbar{
-    margin: 0px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    gap:2rem;
-    
-    box-shadow: 0px 0px 0.5px 0px;
-  }
-#navbar img{
-  width: 100%;
-  padding-left: 0rem;
-  padding-right: 1rem;
-  
-    
-}
-#navbar-types{
-    display: flex;
-    flex-direction: column;
-    gap:1rem;
-    text-align: center;
-}
-#navbar-types li{
-    list-style-type: none;
-} */
+ 
 #navbar {
   flex-direction: column;
   align-items: center;
@@ -687,9 +663,9 @@ background: linear-gradient(90deg, #ECEAF8 0%, #E9C4E6 28.28%, #D2CDE2 63.13%, #
 }
 .dail {
   position: fixed;
-  top: 34rem;
-  left: 69%;
-  width: 25%;
+  top: 20rem;
+  left: 70%;
+  width: 18%;
   
 }
 .dail-button{
