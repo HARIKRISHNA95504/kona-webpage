@@ -598,7 +598,8 @@ a {
     margin-left: 30px;
  } 
  .dail{
-      
+    top: 38rem;
+    position: fixed;  
     left: 80%;   
     
 }
