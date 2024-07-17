@@ -129,6 +129,10 @@ a {
  
 }
 
+.fs-2 {
+    margin-top: 70px;
+}
+
 .img1{
     border:none;
     border-radius: 10rem;
@@ -281,10 +285,10 @@ a {
 }
 
 #hyderabad-cards {
-    margin-left: 10rem;
-    margin-right: 7rem;
-   
-    margin-top: 3rem; 
+    padding-left: 10rem;
+    padding-right: 7rem;
+    margin-top: 20px;
+    
     
     
 }
@@ -293,34 +297,6 @@ a {
     margin-top: 1rem;
 }
 
-/* #hyderabad-cards{
-  
-    margin-top: 10rem;
-    position: relative;
-    margin-left: 10rem;
-    margin-right: 10rem;
-
-} 
-.p-5 {
-    margin-top: 1rem;
-} */
-/* #accordionPanelsStayOpenExample{
-    
-    display: block;
-    width: 100%;
-    padding-left: 17rem;
-    padding-right: 17rem;
-   
-}
-#accordian-btn :hover{
-   color: #000c60;
-}
-.accordion-button:focus,
-.accordion-button:not(.collapsed) {
-   
-    background-color: transparent;
-    box-shadow: none;
-} */
 .accordion-header button {
     font-size: 20px;
     font-weight: 500;
@@ -374,8 +350,7 @@ a {
 #services-contianer{
     display: flex;
     padding-top: 80px;
-    /* padding-left: 50px;
-    padding-right: 50px; */
+  
     padding: 80px;
    
    
@@ -401,7 +376,7 @@ a {
 .dail{
     
     position: fixed;
-    top: 30rem;
+    top: 8rem;
     left: 90rem;
 
 }
@@ -464,19 +439,11 @@ a {
         width: 100%;
         margin-top: 0rem;
     }
-    #hyderabad-cards {
-        margin-top: 2rem;
-        
-        /* Adjusted top margin for smaller screens */
+   
+    .p-5 {
+        margin-top: 0.5rem; 
     }
     
-    .p-5 {
-        margin-top: 0.5rem; /* Adjusted top margin for smaller screens */
-    }
-    /* #accordionPanelsStayOpenExample {
-        padding-left: 3rem; 
-        padding-right: 3rem; 
-    } */
     .accordion-header button {
         font-size: 14px; 
         padding: 10px 0; 
@@ -529,36 +496,38 @@ a {
         font-size: 10px;
   }
   #hyderabad-cards {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 2rem; 
-    width: 100%;
-    position: relative;
+            margin-top: 2rem;
+            width: 100%;
+            
+            width: 100%;
+            padding: 0px;
+            padding-left: 15px;
+            margin-top: 20px;
    
 }
 .pathone {
     
-    right: 10%; /* Adjust for smaller screens */
-    top: 20%; /* Adjust for smaller screens */
-    animation-duration: 8s; /* Adjust animation duration */
+    right: 10%; 
+    top: 20%; 
+    animation-duration: 8s; 
 }
 
 .pathtwo {
-    right: 15%; /* Adjust for smaller screens */
-    top: 60%; /* Adjust for smaller screens */
-    animation-duration: 4s; /* Adjust animation duration */
+    right: 15%; 
+    top: 60%; 
+    animation-duration: 4s; 
 }
 
 .paththree {
-    left: 15%; /* Adjust for smaller screens */
-    top: 5%; /* Adjust for smaller screens */
-    animation-duration: 4s; /* Adjust animation duration */
+    left: 15%; 
+    top: 5%; 
+    animation-duration: 4s; 
 }
 
 .pathfour {
-    left: 0%; /* Adjust for smaller screens */
-    top: 10%; /* Adjust for smaller screens */
-    animation-duration: 8s; /* Adjust animation duration */
+    left: 0%; 
+    top: 10%; 
+    animation-duration: 8s; 
 }
 #trusted p{
     font-size:50px ;
@@ -571,6 +540,11 @@ a {
     width: 80%;
     margin-left: 30px;
  } 
+ .dail{
+    top: 16rem;  
+    left: 80%;   
+    transform: translateX(-50%);
+}
     
   
   

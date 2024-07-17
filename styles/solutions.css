@@ -58,12 +58,16 @@ a {
     background-color: transparent;
 }
 .btn {
-    background: linear-gradient(90deg, #4e3bbf, #a928d8);
-    display: inline-block;
-    color: #fff;
-    border: none;
-    padding: 10px 24px !important;
-    border-radius: 8px;
+  text-align: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #4e3bbf, #a928d8);
+  display: inline-block;
+  color: #fff;
+  border: none;
+  width: 100%;
+  margin-left: 0rem;
+  padding: 10px 24px !important;
+  border-radius: 8px;
 }
 #solutions-container{
     display: flex;
@@ -272,18 +276,18 @@ a {
     color: #a928d8;
 }
 .dail{
-  position: fixed;
-  top: 30rem;
-  left: 90rem;
+position: fixed;
+top: 7rem;
+left: 85rem;
 }
-.dail .btn {
-  padding: 1rem;
-  border: none;
-  border-radius: 186px 180px 182px 20px;
-  -moz-border-radius: 186px 180px 182px 20px;
-  -webkit-border-radius: 186px 180px 182px 20px;
-  border: 0px solid #000000;
+.dail-button{
+  background-color: #6f42c1;
+border: none;
+padding: 20px;
 }
+
+
+
 .modal-header{
     background-color:#952cd4;
     color: #ffff;
@@ -335,15 +339,17 @@ a {
 #navbar-types li{
     list-style-type: none;
 }
-.btn {
+.dail-button {
   text-align: center;
-  justify-content: center;
-  background: linear-gradient(90deg, #4e3bbf, #a928d8);
-  display: inline-block;
-  color: #fff;
-  border: none;
-  width: 100%;
-  border-radius: 8px;
+        justify-content: center;
+        background: linear-gradient(90deg, #4e3bbf, #a928d8);
+        display: inline-block;
+        color: #fff;
+        border: none;
+        width: 100%;
+        margin-left: 0rem;
+        padding: 10px 24px !important;
+        border-radius: 8px;
 }
 #solutions-container{
   display: flex;
@@ -574,8 +580,16 @@ background: linear-gradient(90deg, #ECEAF8 0%, #E9C4E6 28.28%, #D2CDE2 63.13%, #
 }
 .dail {
   position: fixed;
-  top: 24%;
-  left: 80%;
+  top: 13%;
+  left: 65%;
+  width: 25%;
+  
 }
+.dail-button{
+  background-color: #6f42c1;
+border: none;
+padding: 10px;
+}
+
 
 }
