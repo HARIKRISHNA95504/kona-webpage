@@ -7,45 +7,81 @@
 }
 
 
-#navbar {
-    margin: 0px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    gap: 5rem;
-    padding: 0px;
-    box-shadow: 0px 0px 0.5px 0px;
+
+.navbar-main {
+    gap: 150px;
 }
 
-#navbar img {
-    width: 100%;
-    padding-left: 180px;
-
+.navbar {
+    padding: 0px 20px;
+    box-shadow: rgba(221, 221, 221, 0.45) 0px 0px 20px 0px;
 }
 
-#navbar-types {
-    display: flex;
-    gap: 5rem;
-    padding: 20px;
+.navbar-brand {
+    margin-left: 23rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
-#navbar-types li {
-    list-style-type: none;
+.ui-items {
+    gap: 28px;
 }
 
-#navbar-types li:hover {
-    color: #6f42c1;
-    ;
+.ui-items .dropdown-menu .dropdown-item:hover {
+    color: rgb(164, 41, 215);
     cursor: pointer;
 }
 
-.dropdown :hover {
-    color: #6f42c1;
+.ui-items .nav-item .nav-link:hover {
+    color: rgb(164, 41, 215);
 }
 
-#navbar-types button {
-    color: white;
-    background-color: #6f42c1;
+.ui-div {
+    margin-left: 12rem;
 }
+
+#header-btn {
+    padding: 10px 24px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(to right, rgb(84, 58, 193), rgb(164, 41, 215));
+}
+
+#header-btn:hover {
+    background: rgb(0, 12, 96);
+}
+
+.dropdown-box {
+    border-bottom: 0.25px solid silver;
+}
+
+.dropdown-item {
+    padding: 10px 30px;
+}
+
+.dropdown-menu li {
+    align-items: center;
+}
+
+.nav-link {
+    color: rgb(35, 31, 32);
+    font-size: 16px;
+}
+
+.heading-div {
+    padding-top: 8rem;
+}
+
+.head {
+    color: rgb(0, 12, 96);
+    font-size: 4.25rem;
+    font-weight: 800;
+    padding: 0px;
+    margin: 0px;
+}
+
+
 
 .btn1 {
     position: relative;
@@ -337,8 +373,43 @@ a {
         width: 100%;
         overflow-x: hidden;
     }
-
     #navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    #nav-main{
+        display: flex;
+    }
+
+    .navbar-brand {
+        margin-left: 0px;
+        margin-right: 13px;
+    }
+
+    .ui-div {
+        margin-left: 0%;
+    }
+
+    #navbar img {
+        padding-left: 0;
+        margin-bottom: 10px;
+    }
+
+    #navbar-types {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    #navbarNavDropdown {
+        text-align: center;
+    }
+
+    /* #navbar {
         margin: 0px;
         background-color: rgb(255, 255, 255);
         display: flex;
@@ -365,7 +436,7 @@ a {
 
     #navbar-types li {
         list-style-type: none;
-    }
+    } */
 
     .btn {
         text-align: center;
