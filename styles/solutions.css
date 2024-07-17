@@ -272,10 +272,17 @@ a {
     color: #a928d8;
 }
 .dail{
-    position:absolute;
-    top:243rem;
-    right: 0;
-    
+  position: fixed;
+  top: 30rem;
+  left: 90rem;
+}
+.dail .btn {
+  padding: 1rem;
+  border: none;
+  border-radius: 186px 180px 182px 20px;
+  -moz-border-radius: 186px 180px 182px 20px;
+  -webkit-border-radius: 186px 180px 182px 20px;
+  border: 0px solid #000000;
 }
 .modal-header{
     background-color:#952cd4;
@@ -564,6 +571,11 @@ background: linear-gradient(90deg, #ECEAF8 0%, #E9C4E6 28.28%, #D2CDE2 63.13%, #
   line-height: 1.5rem;
   font-weight: 400;
   font-size: 10px;
+}
+.dail {
+  position: fixed;
+  top: 24%;
+  left: 80%;
 }
 
 }

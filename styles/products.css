@@ -107,7 +107,12 @@ a {
 }
 
 #btn2 {
+    background: linear-gradient(90deg, #4e3bbf, #a928d8);
+    display: inline-block;
     color: #fff;
+    border: none;
+    padding: 10px 24px !important;
+    border-radius: 8px;
 }
 
 #crm-title {
@@ -275,7 +280,7 @@ a {
 
 }
 
-.dail .btn {
+.dail  {
     padding: 1rem;
     border: none;
     border-radius: 186px 180px 182px 20px;
@@ -375,8 +380,13 @@ a {
     }
 
     #btn2 {
-        width: 60%;
-
+        background: linear-gradient(90deg, #4e3bbf, #a928d8);
+        display: inline-block;
+        color: #fff;
+        border: none;
+        margin-left: 5rem;
+        padding: 10px 24px !important;
+        border-radius: 8px;
     }
 
     #products-image {
@@ -495,6 +505,13 @@ a {
         line-height: 1.5rem;
         font-weight: 400;
         font-size: 10px;
+    }
+    .dail {
+        position: fixed;
+        top: 5%;
+        left: 66%;
+        width: 25%;
+        
     }
 
 }
