@@ -536,7 +536,13 @@ a {
         
         text-align: center;
         justify-content: start;
-    }   
+    } 
+    #services-contianer p{
+        text-align: center;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }  
     #services h4{
         font-size: 15px;
     }
